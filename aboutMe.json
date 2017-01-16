@@ -1,0 +1,59 @@
+{
+      "firstName": "Cesar",
+      "lastName": "Verasteui",
+      "about": "",
+      "portfolio":"http://linkToYourPortfolio.com",
+      // evidentialDegree Options: "Adv" "Master" "Elite"
+      "evidentialDegree": "Master",
+      "quote": "Hard work pays off. But, discipline will take you far",
+      "quoteSource": "Cesar Verastegui",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "photos": ["make sure to upload photo files here"],
+      "publishedArticles": [
+        {
+          "tile": "Article Title",
+          "publishedDated": "",
+          "link": "",
+          // "role" for publishedArticles can be "author" or "coauthor"
+
+          "role": "author"
+        }
+      ],
+      "pinnacleProject": {
+        "title": "",
+        "completionDate": "",
+        "problemSolving": "",
+        "humanityImpact": "",
+        "link": ""
+      },
+      "careerPaths": [
+        {
+          // careerPathID Options: "careerPath_1" "careerPath_2" "careerPath_3" "careerPath_3" "careerPath_3E" "careerPath_5E"
+          "careerPathID": "careerPath_3",
+          "careerPathProgress": {
+            "domainKnowledge": 10,
+            "uiDevSkills": 20,
+            "coursesCompleted": [
+              {
+                // For courseID, we will provide a list of all the courses to help you fill this out
+                "courseID": "course_1",
+                "dateCompleted": ""
+              },
+              {
+                "courseID": "course_2",
+                "dateCompleted": ""
+              }
+            ]
+          }
+        },
+        {
+          "careerPathID": "careerPath_4",
+          "careerPathTitle": "Advanced Backend Developer",
+          "careerPathProgress": {}
+        }
+      ]
+    }
